@@ -4,7 +4,7 @@ pub struct GameStart {
 }
 
 impl GameStart {
-    pub fn new() -> Self {
+    pub fn new() -> GameStart {
         GameStart {
         time: 0,
         money: 0,
