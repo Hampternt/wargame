@@ -1,11 +1,13 @@
 pub struct GameStart {
-    time: i32,
-    money: i32,
+    pub time: i32,
+    pub money: i32,
 }
 
 impl GameStart {
-    fn new(&mut self) {
-        self.time = 0;
-        self.money = 0;
+    pub fn new() -> Self {
+        GameStart {
+        time: 0,
+        money: 0,
+        }
     }
 }
