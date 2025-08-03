@@ -7,7 +7,7 @@ pub struct GameStart {
     /// Money to labour exhange rate is how much labour per money or the value of money.
     exhange_rate: i32,
     /// Game year start.
-    game_time: TimeValues,
+    pub game_time: TimeValues,
 }
 
 
