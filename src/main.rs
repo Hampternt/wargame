@@ -2,5 +2,8 @@ mod library;
 
 fn main() {
     println!("Hello, world!");
-    library::game_start::game_start();
+    let game = library::game_start::game_start();
+    loop {
+        
+    }
 }
