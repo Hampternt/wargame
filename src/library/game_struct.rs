@@ -8,8 +8,6 @@ pub struct GameStart {
     exhange_rate: i32,
     /// Game year start.
     pub game_time: TimeValues,
-
-    pub resoucres: 
 }
 
 impl GameStart {
