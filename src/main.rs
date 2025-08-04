@@ -10,10 +10,12 @@ fn main() {
         println!("2. Buy something.");
         println!("3. Sell something");
 
+        println!("Provide input:");
         let mut input: String = String::new();
         stdin()
             .read_line(&mut input)
-            .expect_err("Something is wrong with your input.");
+            .expect("Something is wrong with your input.");
+        println!("your input was this, regard: {input}");
 
         match input.trim().parse::<i32>() {
             Ok(1) => {
