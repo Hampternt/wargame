@@ -1,9 +1,8 @@
-# wargame
-    
-this is a fun home project test game to see if I can make a econemy turn by turn game. maybe some resource managment.
-## game requierments and goal's.
-- Have a time mechanid,
+# war game
+this is a fun home project test game to see if I can make a economy turn by turn game. maybe some resource management.
+## game requirements and goal's.
+- Have a time mechanic,
 - Money mechanic
 - Turn based game, is connected to the time module.
-- Resources and contstruction's type program
+- Resources and construction's type program
 - Land statistics.
